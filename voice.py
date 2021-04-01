@@ -8,7 +8,7 @@ SECRET_KEY = 'ZbSdVMdmohIdAK5pf4yrip1h0kffHayf'
 
 client = AipSpeech(APP_ID,API_KEY,SECRET_KEY)
 
-s='你好，刘伊墨，我是你爸爸刘笔生，有什么困难可以来联系我'
+s='你好，刘笔生，你家儿子考100分，字写的很漂亮'
 
 speech = client.synthesis(s, 'zh',1)
 
